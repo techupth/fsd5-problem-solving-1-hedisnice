@@ -2,6 +2,9 @@
 
 const addStrings = function (num1, num2) {
   //Start coding here
+  const sum = parseInt(num1) + parseInt(num2);
+  const result = sum.toString();
+  return result;
 };
 
 const result1 = addStrings("11", "123");
